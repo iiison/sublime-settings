@@ -1,14 +1,16 @@
 {
+	"always_show_minimap_viewport": true,
 	"atomic_save": true,
 	"auto_complete": true,
 	"auto_find_in_selection": true,
+	"bold_folder_labels": false,
 	"bootstrapped": true,
 	"caret_extra_bottom": 0,
 	"caret_extra_top": 0,
 	"caret_extra_width": 7,
 	"caret_style": "blink",
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Dark-Material (SL).tmTheme",
 	"file_exclude_patterns":
 	[
 		"*.pyc",
@@ -47,7 +49,12 @@
 		"dist"
 	],
 	"font_face": "DejaVu Sans ExtraLight",
+	"font_options":
+	[
+		"gray_antialias"
+	],
 	"font_size": 17,
+	"highlight_color_blue": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
@@ -62,9 +69,13 @@
 		"1337 Color Scheme",
 		"ACF Snippets",
 		"Alignment",
+		"AlignTab",
 		"ASP Snippets",
+		"Babel",
+		"Babel Snippets",
 		"BracketHighlighter",
 		"Can I Use",
+		"Chain of Command",
 		"CSScomb",
 		"DocBlockr",
 		"DustBuster",
@@ -77,28 +88,42 @@
 		"Handlebars",
 		"HTML Snippets",
 		"HTMLBeautify",
+		"JavaScriptNext - ES6 Syntax",
+		"JSX",
 		"LoremIpsum",
 		"Markdown Preview",
 		"MarkdownEditing",
+		"Material Theme",
 		"Origami",
 		"Package Control",
 		"React Templates",
+		"ReactJS",
+		"ReactJS Snippets",
+		"RegReplace",
 		"SCSS",
 		"SCSS Snippets",
 		"SublimeLinter",
+		"SublimeLinter-jsxhint",
 		"Text Pastry",
+		"Theme - Dark Material",
+		"Theme - Gravity",
 		"Theme - Solarized Flat",
 		"Theme - Spacegray",
-		"Trimmer"
+		"Trimmer",
+		"View In Browser"
 	],
-	"line_padding_bottom": 2,
-	"line_padding_top": 2,
+	"line_padding_bottom": 3,
+	"line_padding_top": 3,
+	"overlay_scroll_bars": "enabled",
 	"save_on_focus_lost": false,
 	"scroll_past_end": true,
 	"scroll_speed": 0,
+	"tab_height_tall": false,
 	"tab_size": 2,
-	"theme": "Spacegray.sublime-theme",
+	"theme": "Dark-Material.sublime-theme",
 	"translate_tabs_to_spaces": false,
 	"trim_trailing_white_space_on_save": true,
-	"word_wrap": false
+	"word_wrap": false,
+	"indent_guide_options": [ "draw_normal", "draw_active" ],
+	"font_options": [ "gray_antialias", "subpixel_antialias" ]
 }
