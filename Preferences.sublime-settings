@@ -48,10 +48,11 @@
 		"libs",
 		"dist"
 	],
-	"font_face": "DejaVu Sans ExtraLight",
+	"font_face": "Source Code Pro ExtraLight",
 	"font_options":
 	[
-		"gray_antialias"
+		"gray_antialias",
+		"subpixel_antialias"
 	],
 	"font_size": 17,
 	"highlight_color_blue": true,
