@@ -44,5 +44,15 @@
 				"key": "is_abbreviation"
 			}
 		]
+	},
+	{
+		"keys": ["super+ctrl+s"],
+		"command": "run_macro_file",
+		"args": {"file": "Packages/User/FromAlignTab.sublime-macro"}
+	},
+	{
+		"keys": ["super+alt+shift+s"],
+		"command": "run_macro_file",
+		"args": {"file": "Packages/User/ascii.sublime-macro"}
 	}
 ]

@@ -1,19 +1,19 @@
 <snippet>
 	<content><![CDATA[
-var React = require("react");
+import React, { Component } from 'react';
 
-var ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}} = React.createClass({
-	render: function(){
+class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}} extends Component {
+	render(){
 		return (
 			${2}<div />
 		)
 	}
-});
+}
 
-module.exports = ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}};
+export default ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}};
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>component</tabTrigger>
+	<tabTrigger>container</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.js</scope>
 </snippet>

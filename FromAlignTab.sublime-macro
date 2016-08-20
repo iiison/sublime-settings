@@ -1,0 +1,10 @@
+[
+	{
+		"args":
+		{
+			"live_preview": true,
+			"user_input": "from"
+		},
+		"command": "align_tab"
+	}
+]

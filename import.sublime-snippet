@@ -1,7 +1,7 @@
 <snippet>
-	<content><![CDATA[var ${1:name} = require('${2}${1/(.+)/\L\1/g}');]]></content>
+	<content><![CDATA[import ${1:name} from '${2}${1/(.+)/\L\1/g}';]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>ask</tabTrigger>
+	<tabTrigger>import</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.js</scope>
 </snippet>

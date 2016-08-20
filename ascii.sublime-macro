@@ -1,0 +1,33 @@
+[
+	{
+		"args":
+		{
+			"extend": true,
+			"to": "bol"
+		},
+		"command": "move_to"
+	},
+	{
+		"args":
+		{
+			"extend": true,
+			"to": "eol"
+		},
+		"command": "move_to"
+	},
+	{
+		"args":
+		{
+			"comment_style": "block",
+			"direction": "auto",
+			"flip": false,
+			"font": "Georgia11",
+			"insert_as_comment": true,
+			"justify": "auto",
+			"reverse": false,
+			"use_additional_indent": true,
+			"width": 80
+		},
+		"command": "figlet"
+	}
+]
