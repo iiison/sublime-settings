@@ -10,7 +10,7 @@
 	"caret_extra_width": 7,
 	"caret_style": "blink",
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/Material Theme/schemes/OLD/Material-Theme.tmTheme",
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
 	"draw_white_space": "all",
 	"file_exclude_patterns":
 	[
