@@ -23,6 +23,7 @@
 		"Color Highlighter",
 		"Console Wrap",
 		"Cucumber",
+		"DataConverter",
 		"DocBlockr",
 		"Emmet",
 		"Emmet Css Snippets",
@@ -33,6 +34,7 @@
 		"GitGutter",
 		"Handlebars",
 		"HTML Snippets",
+		"HTML-CSS-JS Prettify",
 		"HTMLBeautify",
 		"Inc-Dec-Value",
 		"JavaScriptNext - ES6 Syntax",
@@ -70,3 +72,4 @@
 		"View In Browser"
 	]
 }
+

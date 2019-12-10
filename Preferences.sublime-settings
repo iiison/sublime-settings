@@ -59,12 +59,13 @@
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 18,
+	"font_size": 14,
 	"highlight_color_blue": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"Markdown",
+		"MarkdownPreview",
 		"Vintage"
 	],
 	"in_process_packages":
